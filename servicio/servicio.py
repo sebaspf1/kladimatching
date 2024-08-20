@@ -75,7 +75,7 @@ def query_clave(claves):
     GROUP BY
         articulos.nombre;"""
 
-    connection = psycopg2.connect(dbname='RomboDev', user='root', password='q(Z*-=2{uUEV].OOJ+U2lGBRu%PyM}lA', host='rombo-dev.cj5slgb6v6em.us-west-2.rds.amazonaws.com', port='5432', sslmode='require')
+    connection = psycopg2.connect(dbname='*****', user='*****', password='*****', host='*****', port='*****', sslmode='*****')
     cursor = connection.cursor()
     cursor.execute(query)
     results = cursor.fetchall()
